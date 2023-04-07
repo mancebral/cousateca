@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Intercambio &#8211; Cousateca</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Plataforma para compartir cousas</description>
+	<lastBuildDate>Sat, 01 Feb 2020 10:35:16 +0000</lastBuildDate>
+	<language>gl-ES</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2017/09/cropped-favicon-150x150.png</url>
+	<title>Intercambio &#8211; Cousateca</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Minicadena</title>
+		<link>./../../../cousa/minicadena/index.html</link>
+		
+		<dc:creator><![CDATA[Ikita]]></dc:creator>
+		<pubDate>Sat, 01 Feb 2020 10:35:16 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/minicadena/index.html</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>3 pares botas do 39. Novas a estrenar</title>
+		<link>./../../../cousa/3-pares-botas-do-39-novas-a-estrenar/index.html</link>
+		
+		<dc:creator><![CDATA[krisimon@gmail.com]]></dc:creator>
+		<pubDate>Fri, 28 Jun 2019 15:11:13 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/3-pares-botas-do-39-novas-a-estrenar/index.html</guid>
+
+					<description><![CDATA[Busco algún xoguete ou roupa neno 7 anos. Senon, non pasa nada, as regalo. Hai que vir buscalas a culleredo]]></description>
+										<content:encoded><![CDATA[<p>Busco algún xoguete ou roupa neno 7 anos. Senon, non pasa nada, as regalo. Hai que vir buscalas a culleredo</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

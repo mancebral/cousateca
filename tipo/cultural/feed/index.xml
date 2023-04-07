@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Cultural &#8211; Cousateca</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Plataforma para compartir cousas</description>
+	<lastBuildDate>Thu, 09 Nov 2017 16:00:33 +0000</lastBuildDate>
+	<language>gl-ES</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2017/09/cropped-favicon-150x150.png</url>
+	<title>Cultural &#8211; Cousateca</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Libros de Arquitectura</title>
+		<link>./../../../cousa/libros-de-arquitectura-historia-de-la-arquitectura-moderna-l-benevolo/index.html</link>
+		
+		<dc:creator><![CDATA[krisimon@gmail.com]]></dc:creator>
+		<pubDate>Thu, 09 Nov 2017 12:00:26 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/libros-de-arquitectura-historia-de-la-arquitectura-moderna-l-benevolo/index.html</guid>
+
+					<description><![CDATA[&#8220;Historia de la Arquitectura Moderna&#8221; L. Benévolo,&#8230; Desexo que se trate ben ó libro.]]></description>
+										<content:encoded><![CDATA[<p>&#8220;Historia de la Arquitectura Moderna&#8221; L. Benévolo,&#8230; Desexo que se trate ben ó libro.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Libro de Séneca</title>
+		<link>./../../../cousa/libro-de-seneca/index.html</link>
+		
+		<dc:creator><![CDATA[man_hauser]]></dc:creator>
+		<pubDate>Mon, 06 Nov 2017 19:39:35 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/libro-de-seneca/index.html</guid>
+
+					<description><![CDATA[Pódense facer anotacións das cousas que che interesaran!]]></description>
+										<content:encoded><![CDATA[<p>Pódense facer anotacións das cousas que che interesaran!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

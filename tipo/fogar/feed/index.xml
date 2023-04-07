@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Fogar &#8211; Cousateca</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Plataforma para compartir cousas</description>
+	<lastBuildDate>Tue, 10 Nov 2020 10:14:38 +0000</lastBuildDate>
+	<language>gl-ES</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2017/09/cropped-favicon-150x150.png</url>
+	<title>Fogar &#8211; Cousateca</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Somier 105cm</title>
+		<link>./../../../cousa/somier-105cm/index.html</link>
+		
+		<dc:creator><![CDATA[braisgarfer@gmail.com]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2020 10:14:38 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/somier-105cm/index.html</guid>
+
+					<description><![CDATA[Somier en bo estado (ten todas as láminas completas) pero está un pouco coxo cunha pata, habería que calzalo ou arranxarlle iso para que sea completamente estable, aínda que se pode durmir tamén así.]]></description>
+										<content:encoded><![CDATA[<p>Somier en bo estado (ten todas as láminas completas) pero está un pouco coxo cunha pata, habería que calzalo ou arranxarlle iso para que sea completamente estable, aínda que se pode durmir tamén así.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Quenta auga / leite</title>
+		<link>./../../../cousa/quenta-auga-leite/index.html</link>
+		
+		<dc:creator><![CDATA[Clotilde]]></dc:creator>
+		<pubDate>Tue, 29 Sep 2020 08:37:04 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/quenta-auga-leite/index.html</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sandwichera</title>
+		<link>./../../../cousa/sandwichera/index.html</link>
+		
+		<dc:creator><![CDATA[sergioferal]]></dc:creator>
+		<pubDate>Sun, 25 Feb 2018 10:14:55 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/sandwichera/index.html</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Edredón / Duvet</title>
+		<link>./../../../cousa/edredon-duvet-2/index.html</link>
+		
+		<dc:creator><![CDATA[graffesia@gmail.com]]></dc:creator>
+		<pubDate>Thu, 23 Nov 2017 23:29:22 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/edredon-duvet-2/index.html</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Fonte &#8211; fondue de chocolate pequena</title>
+		<link>./../../../cousa/fonte-fondue-de-chocolate-pequena/index.html</link>
+		
+		<dc:creator><![CDATA[Ainhoa]]></dc:creator>
+		<pubDate>Tue, 21 Nov 2017 18:48:34 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/fonte-fondue-de-chocolate-pequena/index.html</guid>
+
+					<description><![CDATA[Devolver limpiña 🙂]]></description>
+										<content:encoded><![CDATA[<p>Devolver limpiña 🙂</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Aceiteira</title>
+		<link>./../../../cousa/aceiteira-vale-para-utilizar-decorar-ou-regalar-nova-sen-embalaxe/index.html</link>
+		
+		<dc:creator><![CDATA[Anai]]></dc:creator>
+		<pubDate>Wed, 08 Nov 2017 22:04:59 +0000</pubDate>
+				<guid isPermaLink="false">./../../../cousa/aceiteira-vale-para-utilizar-decorar-ou-regalar-nova-sen-embalaxe/index.html</guid>
+
+					<description><![CDATA[Vale para utilizar, decorar ou regalar. Nova. Sen embalaxe. Desexo que che guste.]]></description>
+										<content:encoded><![CDATA[<p>Vale para utilizar, decorar ou regalar. Nova. Sen embalaxe. Desexo que che guste.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
