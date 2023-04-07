@@ -1,0 +1,290 @@
+@font-face {
+	font-family: 'Gotham Narrow';
+	src: url('./fonts/GothamNarrow-Black.eot');
+	src: url('./fonts/GothamNarrow-Black.eot#iefix') format('embedded-opentype'),
+		url('./fonts/GothamNarrow-Black.woff') format('woff'),
+		url('./fonts/GothamNarrow-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{font-family: 'Rubik', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size:19px; font-weight:300}
+a{color:black; text-decoration:none}
+a:hover{text-decoration:none}
+h1{font-family:'Gotham Narrow'; text-transform:uppercase; font-size:35px;}
+h3{font-family:'Gotham Narrow'; text-transform:uppercase; font-size:18px; margin-bottom:4px}
+*:focus{outline:1px solid #ff3000}
+button{cursor:pointer}
+textarea{display:block}
+p > a{color:black; border-bottom:1px solid #ff3000}
+p > a:hover{color:#ff3000}
+
+.button_03{background:white; border:none; padding:8px 30px; font-weight:700;color:black; font-size:16px}
+
+span.forte{font-weight:500}
+#nav, #user_nav{color:#ff3000; font-size:13px; position:relative;font-weight:300; margin:10px 0 35px 0}
+#nav a, #user_nav a{color:#ff3000}
+#nav ul, #user_nav ul{display:inline-block; margin:0; padding:0}
+#nav li, #user_nav li{list-style:none; display:inline-block;}
+#nav li::before{content: '>'; margin-right:3px; vertical-align: middle;}
+#nav li:first-child::before{content: ''; margin-right:0}
+#nav li.destacado, #user_nav li.destacado{font-weight:500}
+#nav button{position:absolute;left:-22px; top:1px; border:none; padding:0; margin:0; background:transparent; color:#ff3000; cursor:pointer;}
+#nav button i{font-size:17px}
+
+#user_nav{margin-left:173px; position: fixed; left:50%; z-index:2; background:#f7ece9; padding:5px 30px 5px 20px; margin-top:5px; margin-bottom:0; top:0}
+.col-md-12 #user_nav{margin-left:410px;}
+.col-md-7 #user_nav{margin-left:173px;}
+.col-md-8 #user_nav{margin-left:221px;}
+#user_nav li::before{content: '>'; margin-right:3px; vertical-align: middle; font-weight:300}
+#user_nav li:first-child::before{content: ''; margin-right:0}
+#user_nav::after{content: '\e5d8'; font-family:'Material Icons'; position:absolute; right:0px; top:0px; padding:4px 8px 4px 4px; background:#f7ece9; font-size:15px}
+
+/* Forms */
+.cmb-form .cmb-th, .cmb-form .cmb-td{float:none !important; padding:0}
+.cmb-form .cmb2-wrap input, .cmb-form .cmb2-wrap textarea{background-color:#ededed; border:none; font-size:14px; color:#333; padding:12px 15px 10px 15px}
+.cmb-form .cmb2-wrap input{width:50%}
+.cmb-form .cmb2-wrap input.cmb2-text-medium{width:50%}
+.cmb-form .cmb2-wrap textarea{width:100%}
+.cmb-form input[type="submit"]{background-color:#ff3000; color:white; padding:8px 30px 5px 30px; margin:20px 0 0 0; font-weight:700; border:none}
+.cmb-form select{
+    border:none;
+    background: transparent;
+    width: 100%;
+    padding: 8px 35px 8px 15px;
+    font-size: 16px;
+    height: 42px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	color:#333;
+	border-radius:0;
+	margin-top:0 !important
+}
+.cmb-form .cmb-type-taxonomy-select  .cmb-td{width:50%; position:relative;background:#ededed; z-index:0}
+.cmb-form .cmb-type-taxonomy-select  .cmb-td:after{content:'\E313'; font-family: 'Material Icons'; position:absolute; right:13px; top:10px; font-size:18px; border-left:1px solid #999; padding-left:10px; color:#999; z-index:-1}
+.cmb-th label{font-weight:400; margin-bottom:0}
+.cmb-form .cmb2-wrap .cmb-row{margin-bottom:20px;}
+.cmb-form .cmb2-wrap #selectores_licenza .cmb-row{border-bottom:1px solid #f4ddd7; padding-bottom:20px}
+.cmb-form .cmb2-wrap #selectores_licenza .cmb-row.cmb2-id-bm-cousaform-aportacion{border-bottom:none; padding-bottom:0}
+.cmb-form .cmb2-wrap .cmb2-id-bm-cousaform-title{margin-bottom:0;}
+.cmb-form .cmb2-wrap .cmb2-id-bm-cousaform-title h5{font-size:19px; font-weight:400}
+.cmb-form .pw-map{height:300px}
+.cmb-form .cmb2-metabox-description{font-size:14px; display:block; color:#333; font-style: normal; padding-top:.5em}
+
+.cmb2-wrap .cmb2-radio-list{margin:20px 0 0 0}
+.cmb2-wrap .cmb-inline li{width:32%; margin:0; padding:0; vertical-align: text-top;}
+.cmb2-radio-list label{position:relative; cursor:pointer; margin:10px 0 0 0; font-weight: 400;}
+.cmb2-radio-list label:before{content:'\e835'; font-family:'Material Icons'; position:absolute; left:-2px; font-size:40px; top:-28px; background:#f7ece9; height:23px;}
+.cmb2-radio-list label button{border:none; background:transparent; padding:0; position: absolute; left:40px; top:-30px}
+.cmb-th label button{border:none; background:transparent; padding: 0; margin:0 0 0 5px}
+.cmb2-radio-list label button i, .cmb-th label button i{font-size:20px; color:#ff3000}
+.cmb-th label button i{color:#999}
+.cmb2-radio-list label button:focus{outline: none}
+.cmb2-radio-list li input[type="radio"]{font-size:30px; width:auto; margin-right:100%}
+.cmb2-radio-list li input[type="radio"]:focus{outline:0}
+.cmb2-radio-list li.checked label:before{content:'\e834'}
+
+#contenedor_licenza_form{background:#f4ddd7; padding:30px 40px 40px 40px; margin-bottom:30px; position:relative}
+#contenedor_licenza_form h3{font-size:19px; text-transform: none; font-weight:400; font-family: 'Rubik'}
+#contenedor_licenza_form .info_xeral{font-size:12px; margin:10px 0 0 0}
+#contenedor_licenza_form .dentro_licenza{margin:10px 0 0 0}
+#contenedor_licenza_form button.cerrar{border:none; background:transparent; padding:0; right:20px; top:20px; position:absolute; color:#ff3000}
+.termos #contenedor_licenza_form{display:none}
+.contido_condicional{background:#f7ece9; padding:30px 40px 40px 40px;position: relative;}
+.contido_condicional:after {
+    content: "";
+    width:0px;
+    height:0px;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    border-bottom:12px solid #f7ece9;
+    position:absolute;
+    top:-12px;
+    left: 30px;
+    margin-left:0;
+}
+.contido_condicional input[type="text"]{background:white}
+.cmb2-wrap .cmb2-id-bm-cousaform-ata.condicional{margin-top:-15px}
+.cmb-form .cmb2-wrap .cmb-type-text-date.cmb2-id-bm-cousaform-ata.condicional input{width:30%}
+.info_vista{font-size:12px}
+.seleccions > span:after{content:'.'}
+.seleccions > span:last-child:after{content:'.'}
+.seleccions span.minus{text-transform: lowercase;}
+.seleccions > span:first-child{text-transform: none;}
+
+.cmb2-id-bm-cousaform-licenza-escollida{display: none}
+
+#footer{background-color:#ff3000; margin-top:50px; color:white; text-align:center}
+#footer .row{min-height:100vh}
+#footer .menu-menu-superior-container{text-align:right; width:165px; margin:auto;}
+#footer .menu-menu-superior-container ul{list-style:none; font-weight:300; text-transform: uppercase; padding:0; margin:20px 0 0 0}
+#footer .menu-menu-superior-container li{line-height:22px}
+#footer .menu-menu-superior-container a{color:white; font-size:18px; line-height:20px; font-weight:700}
+#footer .logos_oficiales{margin:20px 0 0 0}
+#footer .info_logos{text-align:left; width:500px; margin:0 auto 30px auto; font-size:14px}
+
+.datas{color:#ff3000; font-size:16px; margin-bottom:30px; line-height:20px}
+.datas span{display:block;}
+.ficha button{background-color:#ff3000; color:white; border:none; font-size:16px; font-weight:700; padding:8px 30px; width:100%; text-align:center; cursor:pointer}
+.ficha #map{height:250px; width:100%}
+.ficha .direccion{font-size:16px}
+.ficha .segunda_fila{margin-top:30px}
+.termos{margin:-10px 0 10px 0}
+.termos .term{font-size:17px; font-weight:400; line-height:24px}
+.termos .term:before{content: '\e5c8'; font-family: 'Material Icons'; vertical-align:middle;}
+.termos .term span, .termos .term a{color:#ff3000}
+.termos .term button{border:none; background:transparent; cursor:pointer; color:#ff3000; padding:0; font-size:12px}
+
+.form_01.contido_enviar_usar{margin:20px 0 0 0; display:none}
+.form_01{font-size:13px}
+.form_01 label{font-weight:400; margin:0}
+.form_01 .campo_form{margin-bottom:8px}
+.form_01 input{background:#ededed; border:none; padding:5px 10px}
+.form_01.contido_enviar_usar input{width:100%}
+.form_01 button[type="submit"]{margin-top:15px}
+.form_01 .submit_contenedor{position:relative;}
+.form_01 .submit_contenedor i{color:#ff3000; position:absolute; top:50%; margin-top:-5px; right:-30px; display:none}
+#mensaxe_consola{position:fixed; top:0; right:0; left:0; padding:10px 0; background:#ff3000; text-align:center; color:white; font-weight:400; display:none; z-index:3}
+#mensaxe_consola button{border:none; background:transparent; color:white; position:absolute; right:20px; top:10px}
+#mensaxe_consola.visible{display:block}
+#mensaxe_consola ul{margin:0; list-style:none}
+#mensaxe_consola a{color:white; border-bottom:1px solid white}
+
+.form_02 input, #loginform input{width:50%; display:block; background:#ededed; border:none; padding:12px 15px 10px 15px; font-size:14px; color:#333}
+.form_02 label, #loginform label{font-weight:400; padding:5px 0; margin:0}
+.form_02 label strong{color:#ff3000}
+.form_02 div{margin-bottom:20px}
+.form_02 input[type="submit"], #loginform input[type="submit"]{background:#ff3000; color:white; font-weight:700; width:25%; cursor:pointer}
+#loginform .login-remember label{width:100%}
+#loginform .login-remember #rememberme{width:auto; display:inline}
+
+form#buscar input{background:#ff3000; border:none; width:80%; color:white; padding:8px 8px 8px 35px}
+form#buscar .input_container{position:relative}
+form#buscar .input_container:before{position:absolute; content:'\e8b6'; font-family:'Material Icons'; color:white; left:10px; top:10px}
+form#buscar button{border:none; background:#ff3000; width:19%; margin-left:1%; color:white; padding:8px}
+
+.caja_buscar .resultado_busqueda{margin:40px 0 20px 0; color:#ff3000; font-size:14px; font-weight:500}
+
+.listado_tax_buscar{font-size:13px; margin:0 0 5px 0}
+.listado_tax_buscar span{display:table-cell; padding-right:10px; color:#ff3000; font-weight:500}
+.listado_tax_buscar ul{display:table-cell; padding:0}
+.listado_tax_buscar ul li{display: inline-block; margin-right:5px; font-weight:400}
+.listado_tax_buscar ul li a{color:black}
+.listado_tax_buscar ul li:last-child{margin-right:0}
+.listado_tax_buscar ul li:after{content:'/'}
+.listado_tax_buscar ul li:last-child:after{content:''}
+
+.container-edicion{background:#fff3f0; margin-top:50px; margin-bottom:-50px; padding:40px 0}
+.container-edicion button{background: #48170c; border:none; color:white; font-size:16px; font-weight:700; padding:8px 30px}
+.container-edicion h3{font-size:30px}
+.container-edicion .bloque_edicion{margin:15px 0 0 0}
+.bloque_edicion.checkbox{position:relative; cursor:pointer}
+.bloque_edicion.checkbox::before{content: '\e835'; font-family:'Material Icons'; position:absolute; background:#fff3f0; left:-2px; font-size:25px; top:-5px}
+.bloque_edicion.checkbox.checked::before{content: '\e834';}
+.bloque_edicion.checkbox label{margin-left:10px}
+
+.cousas_inicio{margin:10px 0 0 0}
+
+#full_conver{position: fixed; top:0; right:0; left:0; bottom:0; background:#ff3000; color:white; height:100%}
+#full_conver .container, #full_conver .row{height:100%}
+#full_conver h3{display:block; margin:0 0 15px 0; font-size:30px}
+#full_conver button{margin:0 5px}
+#full_conver .col-md-8 button:first-child{margin-left:0}
+#full_conver p{margin-bottom:30px}
+#full_conver .close{color:white; margin:20px; opacity:1; font-size:30px}
+#full_conver .close i{font-size:30px}
+
+.full{
+	width:100%;
+	height:100vh;
+	background-color:#ff3000;
+	background-position: center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.full .container, .full .row{height:100%}
+.contido_slide{color:white; text-align:right}
+.full h1{text-transform:none; font-family:'Rubik', sans-serif; font-weight:500; font-size:72px}
+.full a{color:white; font-size:30px; position:relative; display:inline-block; margin:10px 0 0 0}
+.full a:after{content:'\e5c8'; font-family:'Material Icons'; vertical-align:middle;}
+.full .subtitulo{font-size:56px; line-height:56px}
+
+article.cousa-list{margin-bottom:40px}
+.cousa-list .periodo{font-size:13px; margin-top:6px}
+.cousa-list .periodo span{font-weight: 500}
+.cousa-list i{color:#ff3000; font-size:16px; display:block}
+.cousa-list a{color:black}
+
+.navegacion .der{text-align: right;}
+.navegacion a{color:#ff3000}
+
+#map_cousas{width:100%; height:500px}
+.container_window{padding:20px 0px 20px 20px}
+.container_window i{color:#ff3000; margin:10px 0 0 0; display:block; font-size:14px}
+
+/*
+.dispara_ler{position:relative}
+.dispara_ler::after{content: '\e627'; font-family:'Material Icons'; position:absolute; right:-20px; background:#ff3000; width:23px; height:23px; border-radius:50%; text-align:center; line-height:23px; vertical-align: middle;
+-webkit-animation: spin 1s infinite linear;
+-moz-animation: spin 1s infinite linear;
+-o-animation: spin 1s infinite linear;
+animation: spin 1s infinite linear;
+}
+*/
+.spin{
+     -webkit-animation: spin 1s infinite linear;
+     -moz-animation: spin 1s infinite linear;
+     -o-animation: spin 1s infinite linear;
+     animation: spin 1s infinite linear;
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 767px) {
+	.full h1{font-size:28px; width:40%}
+	.full .subtitulo{width:40%; font-size:28px; line-height:30px}
+	.full a{width:40%; font-size:20px; display:block; font-weight:400}
+
+	#nav, #user_nav{margin:10px 20px 35px 20px}
+	#user_nav{position: absolute; margin-left:0}
+	.col-md-12 #user_nav, .col-md-8 #user_nav, .col-md-7 #user_nav{margin-left:0; right:0; left:auto; top:-5px; margin-right:0}
+
+	.ficha .datas{margin:10px 0 10px 0}
+	.segunda_fila .direccion{margin-top:10px}
+
+	#footer{margin-top:20px}
+
+	.caja_buscar{margin-bottom:30px}
+	.caja_buscar .resultado_busqueda{margin:30px 0 20px 0}
+
+	.cmb-form .cmb2-wrap input{width:100%}
+	.cmb-form .cmb-type-taxonomy-select  .cmb-td{width:100%}
+	#footer .info_logos{width:90%; max-width:300px; text-align:left}
+	.cmb2-wrap .cmb-inline li{width:31%; vertical-align: text-top;}
+}
